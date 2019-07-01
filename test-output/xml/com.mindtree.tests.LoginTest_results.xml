@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="login_Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.555">
+  <properties />
+  
+  
+            <testcase name="loginPageTitleTest" time="2.028" classname="com.mindtree.tests.LoginTest" />
+                <testcase name="loginMethod" time="10.450" classname="com.mindtree.tests.LoginTest" />
+                <testcase name="signInButtonTest" time="0.077" classname="com.mindtree.tests.LoginTest" />
+      
+</testsuite>

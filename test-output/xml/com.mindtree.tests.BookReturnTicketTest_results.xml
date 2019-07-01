@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BookreturnTicket_Tests"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.267">
+  <properties />
+  
+  
+            <testcase name="loginMethod" time="12.709" classname="com.mindtree.tests.BookReturnTicketTest" />
+                <testcase name="mtSelectFlightDataMethod" time="3.869" classname="com.mindtree.tests.BookReturnTicketTest" />
+                <testcase name="flightFinderMethod" time="7.375" classname="com.mindtree.tests.BookReturnTicketTest" />
+                <testcase name="mtFlightConfirmationDataMethod" time="0.040" classname="com.mindtree.tests.BookReturnTicketTest" />
+                <testcase name="loginPageTitleTest" time="2.009" classname="com.mindtree.tests.BookReturnTicketTest" />
+                <testcase name="mtBookFlightDataMethod" time="5.265" classname="com.mindtree.tests.BookReturnTicketTest" />
+      
+</testsuite>

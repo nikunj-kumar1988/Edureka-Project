@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="pdfngreport-properties"
+		value="./pdfngreport.properties" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="com.uttesh.pdfngreport.PDFReportListener" />
+		<listener class-name="com.mindtree.listener.ListenerTest" />
+	</listeners>
+
+
+	<test name="login_Tests">
+		<classes>
+			<class name="com.mindtree.tests.LoginTest" />
+		</classes>
+	</test>
+	<test name="BookreturnTicket_Tests">
+		<classes>
+			<class name="com.mindtree.tests.BookReturnTicketTest" />
+		</classes>
+	</test>
+
+</suite>

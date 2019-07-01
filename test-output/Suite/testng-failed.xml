@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mindtree.listener.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="BookreturnTicket_Tests(failed)">
+    <classes>
+      <class name="com.mindtree.tests.BookReturnTicketTest">
+        <methods>
+          <include name="mtSelectFlightDataMethod" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="mtBookFlightDataMethod"/>
+          <include name="mtFlightConfirmationDataMethod"/>
+          <include name="sendReport"/>
+          <include name="flightFinderMethod"/>
+          <include name="setup"/>
+          <include name="loginMethod"/>
+        </methods>
+      </class> <!-- com.mindtree.tests.BookReturnTicketTest -->
+    </classes>
+  </test> <!-- BookreturnTicket_Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
